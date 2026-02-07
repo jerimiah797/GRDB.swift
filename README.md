@@ -9,21 +9,15 @@
     Proudly serving the community since 2015
 </p>
 
-<p align="center">
-    <a href="https://developer.apple.com/swift/"><img alt="Swift 6.1" src="https://img.shields.io/badge/swift-6.1-orange.svg?style=flat"></a>
-    <a href="https://github.com/groue/GRDB.swift/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/groue/GRDB.swift.svg?maxAge=2592000"></a>
-    <a href="https://github.com/groue/GRDB.swift/actions/workflows/CI.yml"><img alt="CI Status" src="https://github.com/groue/GRDB.swift/actions/workflows/CI.yml/badge.svg?branch=master"></a>
-</p>
+> **Fork notice:** This is an unofficial fork of [groue/GRDB.swift](https://github.com/groue/GRDB.swift) that bundles [SQLCipher](https://www.zetetic.net/sqlcipher/) for on-device database encryption via Swift Package Manager. It is used by [Metatext](https://github.com/jerimiah797/metatext).
+>
+> **Branch:** `sqlcipher-v7` — based on upstream GRDB 7.9.0 with bundled SQLCipher sources and `GRDBCIPHER` compilation flag.
+>
+> **Requirements:** iOS 13.0+ / macOS 10.15+ &bull; Swift 6.1+ / Xcode 16.3+
 
-**Latest release**: December 13, 2025 • [version 7.9.0](https://github.com/groue/GRDB.swift/tree/v7.9.0) • [CHANGELOG](CHANGELOG.md) • [Migrating From GRDB 6 to GRDB 7](Documentation/GRDB7MigrationGuide.md)
+For upstream documentation, see [groue/GRDB.swift](https://github.com/groue/GRDB.swift).
 
-**Requirements**: iOS 13.0+ / macOS 10.15+ / tvOS 13.0+ / watchOS 7.0+ &bull; SQLite 3.20.0+ &bull; Swift 6.1+ / Xcode 16.3+
-
-**Contact**:
-
-- Release announcements and usage tips: follow [@groue@hachyderm.io](https://hachyderm.io/@groue) on Mastodon.
-- Report bugs in a [Github issue](https://github.com/groue/GRDB.swift/issues/new). Make sure you check the [existing issues](https://github.com/groue/GRDB.swift/issues?q=is%3Aopen) first.
-- A question? Looking for advice? Do you wonder how to contribute? Fancy a chat? Go to the [GitHub discussions](https://github.com/groue/GRDB.swift/discussions), or the [GRDB forums](https://forums.swift.org/c/related-projects/grdb).
+---
 
 
 ## What is GRDB?

@@ -1,5 +1,7 @@
 #if os(Linux)
 import Glibc
+#else
+import Darwin
 #endif
 
 /// `StatementAuthorizer` provides information about compiled database
